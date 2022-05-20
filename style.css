@@ -1,0 +1,168 @@
+
+/*Header first section*/
+.header {
+    margin: 40px;
+}
+
+.header h1 {
+    font-family: 'Playfair Display';
+    font-weight: 7000;
+    font-size: 40px;
+    line-height: 64px;
+}
+/*Part of icon 6 dots and paragraph*/
+.dots {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 6px;
+    max-width: 40%;
+}
+
+.chessecake-img {
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.ingredients {
+    max-width: 50%;
+}
+/*check's paragraph style*/
+.p_check {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+/*form's styles*/
+.form_content {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+/*container of icons form restaurant menu and time*/
+
+.time {
+    max-width: 40%;
+}
+.icon-menu {
+    color: #F2994A;
+}
+.container-icon-menu {
+    display: flex;
+    align-items: center;
+}
+
+.p-time {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.p-serving{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+}
+
+.container-icon-prep {
+    display: flex;
+    align-items: center;
+}
+
+.p-min {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.container-icon-cook {
+    display: flex;
+    align-items: center;
+}
+
+.container-icon-total {
+    display: flex;
+    align-items: center;
+}
+
+.icon-numbers {
+    color: #F2994A;
+    border-radius: 6px;
+}
+
+.p-instructions {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.instructions {
+    display: flex;
+    align-items:baseline;
+}
+
+@media screen and (max-width: 900px) {
+    * {
+        margin: 0;
+    }
+    .header h1 {
+        font-family: 'Playfair Display';
+        font-weight: 5000;
+        font-size: 20px;
+        line-height: 54px;
+    }
+
+    .dots {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .form_content {
+        font-size: 14px;
+    }
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .ingredients {
+        max-width: 100%;
+    }
+    .time {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+}
