@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/airamel/fourth-challenge}">
+    <a href="https://{https://github.com/airamel/fourth-challenge/}">
       Solution
     </a>
     <span> | </span>
